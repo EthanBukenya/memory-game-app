@@ -153,21 +153,6 @@ Modify grid columns in `App.css`:
 - Replace `src/Assets/a.mp3` with your preferred sound
 - Supported formats: MP3, WAV, OGG
 
-## 📱 Browser Support
-
-| Browser | Version |
-|---------|---------|
-| Chrome  | 88+ |
-| Firefox | 78+ |
-| Safari  | 14+ |
-| Edge    | 88+ |
-
-### **Required Features**
-- CSS Grid Layout
-- CSS Custom Properties
-- ES6+ JavaScript features
-- Audio API support
-
 ## 🐛 Troubleshooting
 
 ### **Common Issues**

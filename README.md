@@ -4,7 +4,9 @@ A modern, responsive memory card matching game application built with React.js f
 
 ## 📸 Screenshots
 
-*Add screenshots of your game here showing desktop and mobile views*
+![Desktop Memory Game Interface](screenshots/desktop-view.PNG)
+![Mobile view Game Interface](screenshots/mobile-view.PNG)
+
 
 ## ✨ Features
 

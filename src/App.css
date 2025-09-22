@@ -4,7 +4,7 @@
 
 .app {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #61636b 0%, #000000 100%);
   padding: 1rem;
   font-family: 'Arial', sans-serif;
 }
@@ -84,25 +84,43 @@
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
-  max-width: 800px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(0.5rem, 2vw, 1rem);
+  max-width: min(95vw, 800px);
+  max-height: 60vh;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
+  justify-content: center;
 }
 
-/* Responsive Design */
-@media (min-width: 768px) {
+/* Responsive Design - Ensure 4x4 grid fits on all screens */
+@media (max-width: 768px) {
   .card-grid {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    gap: clamp(0.3rem, 1.5vw, 0.8rem);
+    max-height: 55vh;
   }
 }
 
 @media (max-width: 480px) {
   .card-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.8rem;
+    gap: clamp(0.2rem, 1vw, 0.5rem);
+    max-height: 50vh;
+    padding: 0 0.25rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .card-grid {
+    gap: 0.2rem;
+    max-height: 45vh;
+  }
+}
+
+/* Landscape mobile phones */
+@media (max-height: 500px) and (orientation: landscape) {
+  .card-grid {
+    max-height: 70vh;
+    gap: 0.3rem;
   }
 }
 

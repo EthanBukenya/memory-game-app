@@ -225,6 +225,6 @@ If you have any questions, issues, or suggestions:
 
 **⭐ Star this repository if you found it helpful!**
 
-**🔗 [Live Demo](https://your-demo-url.com)** 
+**🔗 [Live Demo](https://memory-game-app-sandy.vercel.app/)** 
 **📚 [Git Repository](https://github.com/EthanBukenya/memory-game-app)** 
 **🐛 [Report Bug](https://github.com/EthanBukenya/memory-game-app/issues)**
